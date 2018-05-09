@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="23dp"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/deleteAlert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dp"
+            android:text="@string/are_u_sure"
+            android:textColor="#f7043d"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/noButton"
+            android:text="@string/delete_no"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:textAlignment="gravity"
+            android:textColor="#050505"
+            android:textSize="24dp"
+            android:textStyle="bold|italic"
+            android:layout_below="@id/deleteAlert"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/yesButton"
+            android:text="@string/delete_yes"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:textAlignment="gravity"
+            android:layout_alignParentRight="true"
+            android:textColor="#050505"
+            android:textSize="24dp"
+            android:textStyle="bold|italic"
+            android:layout_below="@id/deleteAlert"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

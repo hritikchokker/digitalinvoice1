@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/diary_phone"
+    android:theme="@style/Theme.AppCompat"
+    tools:context="com.hritik.hchok.mypersonaldiary.activities.Activities.secondActivity">
+
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/smart_diary_welcome"
+        android:layout_width="299dp"
+        android:layout_height="183dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="cursive"
+        android:text="@string/welcome_to_your_smart_diary"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/newentry"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/new_entry"
+        android:textAlignment="gravity"
+        android:textColor="#050505"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.558" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/viewallentry"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="8dp"
+        android:text="@string/view_all_entry"
+        android:textAlignment="gravity"
+        android:textColor="#050505"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.726" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/mainpage"
+        style="@style/AppTheme.RoundedCornerMaterialButton"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="8dp"
+        android:text="@string/go_back"
+        android:textAlignment="gravity"
+        android:textColor="#050505"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+
+
+</android.support.constraint.ConstraintLayout>

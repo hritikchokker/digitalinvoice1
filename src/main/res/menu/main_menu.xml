@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/add_entry_main"
+        android:id="@+id/entry_recycler_menu"/>
+    <item
+        android:title="@string/item1_main"
+        android:id="@+id/item1_id"/>
+    <item
+        android:title="@string/contact_us"
+        android:id="@+id/contact_us"/>
+
+    <item android:id="@+id/help"
+        android:title="@string/help"/>
+
+
+    <item
+        android:title=""
+        android:icon="@drawable/search_icon"
+        android:id="@+id/search_id"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        />
+</menu>
